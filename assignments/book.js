@@ -42,7 +42,7 @@ class BookManager{
         console.log(`Books in ${min} and ${max} price range `);
 		console.log('price\trating\tauthor\ttitle');
 		for(let book of books){
-			if book.price < max and book.price > min:
+			if book.price < max && book.price > min:
 				console.log(`${book.price}\t${book.rating}\t${book.author}\t${book.title}`);
     }
 
@@ -50,7 +50,7 @@ class BookManager{
 		console.log(`Books in ${min} and ${max} rating range `);
 		console.log('price\trating\tauthor\ttitle');
 		for(let book of books){
-			if book.rating < max and book.rating > min:
+			if book.rating < max && book.rating > min:
 				console.log(`${book.price}\t${book.rating}\t${book.author}\t${book.title}`);
 
     }
